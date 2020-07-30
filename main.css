@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    
+}
+
+
+
+body{
+    background-color: #ededed;
+
+
+}
+
+nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+
+}
+nav img{
+    height: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 1rem; 
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    border-bottom:1px blue solid;
+    color: black;
+}
+
+
+
+
+input{
+    border-radius: 20px;
+    margin-bottom: 0;
+    align-self: center;
+    font-size: 1rem;
+    padding:1rem;
+    background-color: black;
+    color: white;
+
+}
+
+
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center ;
+    align-items: center;
+    width:90%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    margin-left: 5%;
+    margin-top: 3rem;
+
+    margin-bottom: 16rem;
+
+}
+
+.client-pic{
+    /* background-color: cyan; */
+    height: 100%;
+    width: 100%;
+}
+.client-pic img{
+    height: 300px;
+    
+
+
+}
+.special-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    align-items: center;
+    line-height: 3rem;
+}
+.special-info .second{
+    font-size: 14px;
+}
+.special-info p {
+font-size: 24px;
+text-align: center;
+
+}
+
+
+.mid{
+    /* text-align:center; */
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display:flex;
+    /* border-top:1px solid blue; */
+    border-bottom:1px solid blue;
+    width: 75%;
+    margin-top:2rem;
+    padding: 2rem;
+}
+
+.card h3{
+    font-size: 2rem;
+}
+.card p{
+    font-size: 0.75rem;
+}
+
+
+.card-info{
+    margin-left: 1rem;
+}
+
+.card-info p{
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.card-date{
+    margin-left: 1rem;
+    text-align: center;
+}
+
+
+.profile-pic-holder{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: teal;
+}
+.profile-pic-holder img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+
+.speaker-description{
+
+display: flex;
+/* letter-spacing: 0.3rem; */
+justify-content: space-between;
+
+}
+
+.speaker-description input{
+    width: 100%;
+
+}
+
+
+
+.speaker-description li{
+    list-style: none;
+    padding: 1rem;
+    margin-left: 1rem;
+
+}
+
+
