@@ -170,7 +170,6 @@ text-align: center;
 .speaker-description{
 
 display: flex;
-/* letter-spacing: 0.3rem; */
 justify-content: space-between;
 
 }
@@ -189,4 +188,10 @@ justify-content: space-between;
 
 }
 
-
+/* 
+Things to do tomorrow:
+Change styling of buttons
+Add share icons
+Change fonts to better ones
+Add queries for large and small displays
+*/
